@@ -27,7 +27,4 @@ for index in rightIndices:
     rightNumbers.append(secondArray[index])
 
 
-if sum(rightNumbers) != firstFactor * secondFactor:
-    print("Something went wrong")
-else:
-    print(sum(rightNumbers))
+print(sum(rightNumbers))
